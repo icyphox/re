@@ -1,0 +1,9 @@
+{"compile":[
+["/home/icy/Leet/re/practice/nim/nimcache/hello.c", "gcc -c  -w  -I/home/icy/Leet/Nim/lib -o /home/icy/Leet/re/practice/nim/nimcache/hello.c.o /home/icy/Leet/re/practice/nim/nimcache/hello.c"]
+],
+"link":[
+"/home/icy/Leet/re/practice/nim/nimcache/hello.c.o",
+"/home/icy/Leet/re/practice/nim/nimcache/stdlib_system.c.o"
+],
+"linkcmd": "gcc   -o /home/icy/Leet/re/practice/nim/hello  /home/icy/Leet/re/practice/nim/nimcache/hello.c.o /home/icy/Leet/re/practice/nim/nimcache/stdlib_system.c.o    -ldl"
+}
